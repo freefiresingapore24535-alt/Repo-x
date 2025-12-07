@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "22321078"))
 API_HASH = environ.get("API_HASH", "9960806d290cf4170e43355fcc3687ac")
-BOT_TOKEN = environ.get("BOT_TOKEN", "8470211855:AAEcGaw7JlH4sHRuXS6L4BTC8rG9HkRJowQ")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8384563428:AAE7fO9vcs-NCaekG11ngt8o5si79zO_hlg")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Svadvance2_bot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Sk_Tech1_Bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -46,8 +46,8 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002913585711"))
-CHANNEL_ID = int(environ.get("CHANNEL_ID", "-1002091966691"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002348263944"))
+CHANNEL_ID = int(environ.get("CHANNEL_ID", "-1003494765620"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
